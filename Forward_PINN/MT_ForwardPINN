@@ -654,7 +654,7 @@ def main():
         })
         (OUT_ROOT / "summary_all.json").write_text(json.dumps(summary, indent=2))
 
-    print("\n✅ DONE. All results saved in:")
+    print("\n All results saved in:")
     print("  ", OUT_ROOT)
 
 
