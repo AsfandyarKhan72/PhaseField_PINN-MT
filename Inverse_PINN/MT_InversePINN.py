@@ -453,7 +453,7 @@ def main():
         cfg=CONFIG,
     )
 
-    print("\n✅ ALL inverse-beta runs completed.")
+    print("\n ALL inverse-beta runs completed.")
     print("Results root:", RUNS_ROOT)
 
 
