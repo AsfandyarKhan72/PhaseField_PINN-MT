@@ -22,8 +22,6 @@ The framework includes:
 
 ## Overview Figure
 
-![PINN workflow for martensitic transformation](assets/inverse_pinn_workflow.png)
-
 <p align="center">
   <img src="assets/inverse_pinn_workflow.png" alt="Inverse PINN workflow for martensitic transformation" width="700">
 </p>
