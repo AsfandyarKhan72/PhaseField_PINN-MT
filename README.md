@@ -10,8 +10,9 @@ This repository contains the research code accompanying the paper:
 
 **Asfandyar Khan** and **Mahmood Mamivand**  
 *Physics-Informed Neural Networks for Martensitic Transformation: Toward Morphology-Based Material Parameters Estimation*  
-**Physica Scripta**
-**DOI:** `10.1088/1402-4896/ae5fe5`
+**Physica Scripta**  
+**DOI:** `10.1088/1402-4896/ae5fe5`  
+**Paper Link:** [Read the paper on IOPscience](https://iopscience.iop.org/article/10.1088/1402-4896/ae5fe5)
 
 This repository provides implementations of **physics-informed neural networks (PINNs)** for a **2D martensitic phase-field model** governed by coupled **time-dependent Ginzburg-Landau (TDGL)** and **mechanical equilibrium equations**.
 
