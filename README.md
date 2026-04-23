@@ -86,8 +86,13 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Core dependencies: NumPy, Matplotlib, SciPy, PyTorch, DeepXDE
+### Core dependencies
 
+- NumPy
+- Matplotlib
+- SciPy
+- PyTorch
+- DeepXDE
 ---
 
 ## Model Summary
