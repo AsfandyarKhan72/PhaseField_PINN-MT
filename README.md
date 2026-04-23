@@ -34,6 +34,14 @@ This work is intended to support **reproducible research**, **open scientific di
 
 ---
 
+## Installation
+
+Create a Python environment and install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+
 ## **Repository Structure**
 
 ```text
