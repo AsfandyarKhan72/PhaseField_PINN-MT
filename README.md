@@ -38,6 +38,8 @@ The framework includes:
 PhaseField_PINN-MT/
 ├── Forward_PINN/
 ├── Inverse_PINN/
+├── assets/
+├── CITATION.cff
 ├── LICENSE
 ├── README.md
 └── requirements.txt
