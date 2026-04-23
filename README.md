@@ -27,7 +27,7 @@ The framework includes:
 </p>
 
 <p align="center">
-  <em>Overview of the inverse PINN framework for inverse parameter estimation in 2D martensitic phase transformations.</em>
+  <em>Overview of the inverse PINN framework for inverse parameter estimation in 2D martensitic phase transformations. Figure adapted from the associated paper by Khan and Mamivand, Physica Scripta, 2026.</em>
 </p>
 
 ---
