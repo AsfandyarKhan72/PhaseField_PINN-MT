@@ -63,12 +63,12 @@ pip install -r requirements.txt
 
 **3. Run the Forward PINN example**
 ```bash
-python Forward_PINN/MT_ForwardPINN.py
+python Forward_PINN/MT_Forward_PINN.py
 ```
 
 **4. Run the Inverse PINN example**
 ```bash
-python Inverse_PINN/MT_InversePINN.py
+python Inverse_PINN/MT_Inverse_PINN.py
 ```
 
 > Depending on your environment, hardware, and DeepXDE backend configuration, runtime may vary.
