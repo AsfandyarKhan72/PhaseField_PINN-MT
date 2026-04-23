@@ -20,6 +20,8 @@ The framework includes:
 - **Forward PINN** for predicting spatiotemporal microstructure evolution from prescribed initial conditions
 - **Inverse PINN** for morphology-based estimation of the gradient energy coefficient from sparse, partial, and noisy observations
 
+This repository is intended to support reproducible research and open scientific dissemination by providing code, input files, and representative datasets for reuse by other researchers.
+
 ## Overview Figure
 
 <p align="center">
