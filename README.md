@@ -20,6 +20,18 @@ The framework includes:
 - **Forward PINN** for predicting spatiotemporal microstructure evolution from prescribed initial conditions
 - **Inverse PINN** for morphology-based estimation of the gradient energy coefficient from sparse, partial, and noisy observations
 
+## Overview Figure
+
+![PINN workflow for martensitic transformation](assets/inverse_pinn_workflow.png)
+
+<p align="center">
+  <img src="assets/inverse_pinn_workflow.png" alt="Inverse PINN workflow for martensitic transformation" width="700">
+</p>
+
+<p align="center">
+  <em>Overview of the inverse PINN framework for inverse parameter estimation in 2D martensitic phase transformations.</em>
+</p>
+
 ---
 
 ## Repository Structure
