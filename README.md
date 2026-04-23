@@ -109,6 +109,25 @@ The PINN formulation includes:
 
 ---
 
+## Dataset / Input Files
+
+The repository includes reference and observation data files used in the forward and inverse PINN studies.
+
+### Forward PINN data
+
+- **`t_1_FEM.txt`** — FEM reference microstructure data used for comparison with the forward PINN prediction.
+
+### Inverse PINN data
+
+- **`grid_11x11.txt`**, **`grid_51x51.txt`**, **`grid_101x101.txt`** — sparse observation cases with different sampling densities.
+- **`grid_11x11_firsthalf.txt`**, **`grid_11x11_secondhalf.txt`** — partial-domain observation cases.
+- **`grid_11x11_noise_5pct.txt`**, **`grid_11x11_noise_20pct.txt`**, **`grid_11x11_noise_50pct.txt`** — noisy observation cases with different noise levels.
+- **`gridIC_11x11.txt`**, **`gridIC_51x51.txt`**, **`gridIC_101x101.txt`** — initial-condition related observation datasets used in inverse PINN studies.
+
+These files are included to support reproducibility and to demonstrate parameter estimation under different observation conditions.
+
+---
+
 ## Citation
 
 If you use this repository in your research, please cite:
