@@ -106,6 +106,8 @@ The PINN formulation includes:
 
 ## Citation
 
+If you use this repository in your research, please cite:
+
 ```bibtex
 @article{khan2026pinnmt,
   author  = {Asfandyar Khan and Mahmood Mamivand},
