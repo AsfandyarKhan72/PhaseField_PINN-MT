@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "PhaseField_PINN-MT"
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Khan"
+    given-names: "Asfandyar"
+    affiliation: "Boise State University"
+  - family-names: "Mamivand"
+    given-names: "Mahmood"
+    affiliation: "Boise State University"
+repository-code: "https://github.com/AsfandyarKhan72/PhaseField_PINN-MT"
+abstract: "Research code for physics-informed neural networks for forward simulation and inverse parameter estimation in 2D martensitic phase transformations."
+keywords:
+  - "physics-informed neural networks"
+  - "PINN"
+  - "martensitic transformation"
+  - "phase-field modeling"
+  - "computational materials science"
+  - "inverse parameter estimation"
+license: "MIT"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Khan"
+      given-names: "Asfandyar"
+    - family-names: "Mamivand"
+      given-names: "Mahmood"
+  title: "Physics-Informed Neural Networks for Martensitic Transformation: Toward Morphology-Based Material Parameters Estimation"
+  journal: "Physica Scripta"
+  year: 2026
+  doi: "10.1088/1402-4896/ae5fe5"
