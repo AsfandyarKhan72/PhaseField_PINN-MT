@@ -20,6 +20,7 @@ import numpy as np
 import torch # torch==2.2.2+cu121
 import deepxde as dde # deepxde==1.13.2
 from deepxde.icbc import PeriodicBC, PointSetBC
+from pathlib import Path
 
 import matplotlib
 matplotlib.use("Agg")
@@ -40,18 +41,17 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # PATHS
 # ============================================================
 
-BASE_DIR = Path(
-    "/home/asfandyarkhan/Desktop/Papers/MT_Paper/CMAME/Data/MT_Forward_Data/"
-    "Beta1e-4_L10_NewFD_OriginalIC_Centered0.3"
-)
+# Repository root = parent of the current script folder
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
-# FEM reference at model end time t=1 (physically: 1 sec in your naming convention)
+# Data folder inside repository
+BASE_DIR = REPO_ROOT / "Forward_PINN"
+
+# FEM reference file
 FEM_END_FILE = BASE_DIR / "t_1_FEM.txt"
 
-OUT_ROOT = Path(
-    "/home/asfandyarkhan/Desktop/Papers/MT_Paper/CMAME/PINN_Code/Forward/"
-    "GitHub_Forward_PINN_MT_t0_to_t1"
-)
+# Output folder inside repository
+OUT_ROOT = REPO_ROOT / "results" / "forward"
 OUT_ROOT.mkdir(parents=True, exist_ok=True)
 
 # ============================================================
