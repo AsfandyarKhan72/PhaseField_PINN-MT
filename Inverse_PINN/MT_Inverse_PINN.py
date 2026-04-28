@@ -29,7 +29,7 @@ dde.config.set_random_seed(SEED)
 dde.config.set_default_float("float32")
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-torch.cuda.empty_cache()
+torch.cuda.empty_cache()  # Clear residual GPU allocations from any previous runs
 
 
 # ============================================================
