@@ -159,6 +159,12 @@ If you use this repository in your research, please cite:
 
 ---
 
+## Acknowledgment
+
+The authors appreciate the support of the National Science Foundation grant **DMR-2142935**. We would like to acknowledge the high-performance computing support of the Borah compute cluster(DOI: 10.18122/oit/3/boisestate) provided by Boise State University’s Research Computing Department.
+
+---
+
 ## Contact
 
 Asfandyar Khan  
