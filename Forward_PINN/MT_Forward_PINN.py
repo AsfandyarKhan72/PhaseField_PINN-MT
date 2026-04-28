@@ -36,6 +36,7 @@ dde.config.set_random_seed(SEED)
 dde.config.set_default_float("float32")
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# Training defaults to GPU if available; falls back to CPU automatically
 
 # ============================================================
 # PATHS
